@@ -1,0 +1,20 @@
+{
+  "name": "katello-sam",
+  "version": "0.1.0",
+  "author": "Katello",
+  "summary": "Configure and install sam.",
+  "license": "GPLv3+",
+  "source": "https://github.com/Katello/puppet-sam.git",
+  "project_page": "https://github.com/Katello/puppet-sam",
+  "issues_url": "http://projects.theforeman.org/projects/katello/issues",
+  "dependencies": [
+    {
+      "name": "puppetlabs-stdlib",
+      "version_requirement": ">= 1.0.0"
+    },
+    {
+       "name": "theforeman-foreman",
+       "version_requirement": ">= 1.5.0"
+    },
+  ]
+}
